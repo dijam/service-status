@@ -1,0 +1,23 @@
+{
+  "name": "MajidApp",
+  "version": "0.0.0",
+  "authors": [
+    "Majid Garmaroudi <majid.sadeghi@gmail.com>"
+  ],
+  "ignore": [
+    ".jshintrc"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://majidsadeghi.com",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.0",
+    "underscore": "~1.7.0",
+    "requirejs": "~2.1.15",
+    "angular": "1.2.x",
+    "angular-bootstrap": "~0.11.2",
+    "angularAMD": "~0.2.1",
+    "angular-local-storage": "~0.1.5"
+  }
+}

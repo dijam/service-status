@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name": "Klarna CDN",
+            "url": {
+                "href": "https://cdn.klarna.com/1.0/shared/image/generic/logo/global/basic/blue-no-tm.png?height=48"
+            },
+            "status": 200
+        },
+        {
+            "name": "Klarna Dynamic T&C",
+            "url": {
+                "href": "cdn.klarna.com/1.0/shared/content/legal/terms/0/de_de/checkout"
+            },
+            "status": 200
+        },
+        {
+            "name": "Klarna Dynamic T&C PDF",
+            "url": {
+                "href": "cdn.klarna.com/1.0/shared/content/legal/terms/0/de_de/checkout/pdf"
+            },
+            "status": 200
+        }
+    ]
+}
