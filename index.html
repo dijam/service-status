@@ -27,12 +27,23 @@
                             </tr>
                         </thead>
                         <tbody ng-controller="MainController as main">
+                            <tr ng-repeat="service in services">
+                                <td>{{service.name}}</td>
+                                <td>{{service.duration}}</td>
+                                <td ng-show="service.status" class="glyphicon glyphicon-ok-sign"></td>
+                                <td ng-show="!service.status" class="glyphicon glyphicon-remove-sign"></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
+    <footer>
+        <div class="container">
+            <p class="muted credit text-center">By <a href="http://majidsadeghi.com">Majid Garmaroudi</a></p>
+        </div>
+    </footer>
     <script data-main="js/main" src="./lib/requirejs/require.js" type="text/javascript" async></script>
 </body>
 </html>

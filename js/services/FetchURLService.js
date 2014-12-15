@@ -1,12 +1,32 @@
 define(['app'], function(app) {
 
-    return app.factory('FetchURLService', function() {
-        var data = {message: 'majid'};
+    return app.factory('FetchURLService', ['$http', function($http) {
+
         return {
             get: function() {
-                return data.message;
+                var start = Date.now();
+
+                return $http.get('/status').
+                    success(function(data, status, headers, config) {
+                        return {
+                            data: data,
+                            status: status,
+                            headers: headers,
+                            config: config,
+                            duration: Date.now() - start
+                        };
+
+                }).error(function(data, status, headers, config) {
+                    return {
+                        data: data,
+                        status: status,
+                        headers: headers,
+                        config: config,
+                        duration: Date.now() - start
+                    };
+                });
             }
         };
-    });
+    }]);
 
 });

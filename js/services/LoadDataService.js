@@ -5,7 +5,7 @@ define(['app'], function(app) {
             get: function() {
                 var data = {};
                 return $http.get('data/services.json').then(function (response) {
-                    data = response.data;
+                    data = response.data.data;
                     localStorageService.add('services', data);
                     return data;
                 });
