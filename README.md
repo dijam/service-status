@@ -1,7 +1,7 @@
-angular-requirejs
+Service Status
 =================
 
-A simple project structure for using requirejs to load angularjs
+A simple project that lets you check availability status of your web based products 
 
 Just checkout repository
 Run:
@@ -10,6 +10,5 @@ bower install
 ```
 
 Todo:
-* Adding Coffeescript support
-* Adding Sass support
+* Adding Coffeescript
 * Adding js/coffee linters
