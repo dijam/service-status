@@ -7,6 +7,8 @@ Just checkout repository
 Run:
 ```terminal
 bower install
+npm install
+node server.js
 ```
 
 Todo:
