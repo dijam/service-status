@@ -1,23 +1,16 @@
 {
     "data": [
         {
-            "name": "Klarna CDN",
+            "name": "Majid's website",
             "url": {
-                "href": "https://cdn.klarna.com/1.0/shared/image/generic/logo/global/basic/blue-no-tm.png?height=48"
+                "href": "http://majidsadeghi.com"
             },
             "status": 200
         },
         {
-            "name": "Klarna Dynamic T&C",
+            "name": "Majid's twitter page",
             "url": {
-                "href": "https://cdn.klarna.com/1.0/shared/content/legal/terms/0/de_de/checkout"
-            },
-            "status": 200
-        },
-        {
-            "name": "Klarna Dynamic T&C PDF",
-            "url": {
-                "href": "https://cdn.klarna.com/1.0/shared/content/legal/terms/0/de_de/checkout/pdf"
+                "href": "https://twitter.com/gsdijam"
             },
             "status": 200
         }
