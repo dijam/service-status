@@ -8,8 +8,10 @@ Run:
 ```terminal
 bower install
 npm install
-node server.js
+node main.js
 ```
+
+Then visit: http://localhost:3000/
 
 Todo:
 * Adding Coffeescript
