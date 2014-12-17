@@ -3,15 +3,18 @@ Service Status
 
 A simple project that lets you check availability status of your web based products
 
-Just checkout repository
-Run:
+# Requirements
+* npm
+* gulp
+* bower
+
+# Installation and Run
 ```terminal
-bower install
-npm install
-node main.js
+gulp
 ```
 
 Then visit: http://localhost:3000/
+
 
 Todo:
 * Adding Coffeescript
