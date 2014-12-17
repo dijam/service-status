@@ -1,7 +1,7 @@
 Service Status
 =================
 
-A simple project that lets you check availability status of your web based products 
+A simple project that lets you check availability status of your web based products
 
 Just checkout repository
 Run:
@@ -14,3 +14,6 @@ node server.js
 Todo:
 * Adding Coffeescript
 * Adding js/coffee linters
+
+
+Photos from http://pixabay.com

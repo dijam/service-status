@@ -1,6 +1,6 @@
 {
-  "name": "MajidApp",
-  "version": "0.0.0",
+  "name": "Service-status",
+  "version": "0.0.1",
   "authors": [
     "Majid Garmaroudi <majid.sadeghi@gmail.com>"
   ],
@@ -15,9 +15,7 @@
     "bootstrap": "~3.3.0",
     "underscore": "~1.7.0",
     "requirejs": "~2.1.15",
-    "angular": "1.2.x",
-    "angular-bootstrap": "~0.11.2",
-    "angularAMD": "~0.2.1",
-    "angular-local-storage": "~0.1.5"
+    "backbone": "~1.1.2",
+    "requirejs-hogan-plugin": "~0.3.1"
   }
 }

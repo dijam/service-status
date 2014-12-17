@@ -1,0 +1,15 @@
+
+<tr>
+    <td>{{name}}</td>
+    <td>{{duration}} ms</td>
+    {{#status}}
+    <td class="{{status}}">
+        <img  class="status-green" width="30px" height="30px" src="img/green.png" alt="Passed">
+    </td>
+    {{/status}}
+    {{^status}}
+    <td>
+        <img  class="status-red" width="30px" height="30px" src="img/failed.png" alt="Failed">
+    </td>
+    {{/status}}
+</tr>

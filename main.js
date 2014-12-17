@@ -11,6 +11,7 @@ parseService = function(service, callback) {
     var start,
         cache = 'status-',
         delimiter = '?',
+        req,
         out = {
             name: service.name,
             status: false
@@ -24,7 +25,15 @@ parseService = function(service, callback) {
     start = new Date().getTime();
     cache = delimiter + cache + start;
 
-    request(service.url.href + cache, function(error, response, body) {
+    req = {
+        url: service.url.href + cache,
+    };
+
+    if (service.url.headers) {
+        req.headers = service.url.headers;
+    }
+
+    request(req, function(error, response, body) {
         console.log('Url to call:', service.url.href + cache);
         console.log('Response status:', response.statusCode);
 
