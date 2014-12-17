@@ -15,6 +15,15 @@ gulp
 
 Then visit: http://localhost:3000/
 
+# Specific gulp commands
+## Installation
+```terminal
+gulp install
+```
+## Running server
+```terminal
+gulp run
+```
 
 Todo:
 * Adding Coffeescript
