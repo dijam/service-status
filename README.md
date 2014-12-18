@@ -25,10 +25,13 @@ gulp install
 gulp run
 ```
 
+## How to customize
+You can add as many URL you want to the page by editing data/services.json
+
+
 Todo:
 * Adding Coffeescript
 * Adding js/coffee linters
-
 
 Photos from http://pixabay.com
 
