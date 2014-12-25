@@ -16,7 +16,7 @@ gulp.task('install', function(cb) {
 
 gulp.task('run', ['install'], function(cb) {
     console.log('Running server');
-    exec('node main.js', function (err) {
+    exec('node server.js', function (err) {
         if (err) return cb(err);
             cb();
     });
